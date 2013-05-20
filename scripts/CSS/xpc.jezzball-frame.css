@@ -1,0 +1,64 @@
+body {
+	color: 		        rgba(0,0,0,1);
+	width: 		        100%;
+	height: 	        100%;
+}
+
+#frame-left {
+	width: 				20%;
+	height: 			100%;
+	float: 				left;
+	background-color: 	#666666;
+}
+
+#frame-top {
+	width: 				80%;
+	height: 			20%;
+	float: 				left;
+	background-color: 	#999999;
+}
+
+#gameCanvas {
+    border:             1px solid #000;
+}
+
+#gamecontainer {
+	width: 				80%;
+	height: 			80%;
+	background-color: 	#CECECE;
+	float: 				left;
+}
+
+#maincontainer {
+	width: 		        100%;
+	height: 	        100%;
+}
+
+.areadebugbox {
+	width: 				100%;
+	height: 			auto;
+	float: 				left;
+}
+
+.debuglabel{
+	width: 				45%;
+	height: 			20px;
+	line-height: 		20px;
+	
+	float: 				left;
+	margin-left:		5%;
+}
+
+.debugvalue{
+	width: 				40%;
+	height: 			20px;
+	line-height: 		20px;
+	
+	float: 				left;
+	margin-left: 		10%;
+}
+
+.gridblock {
+    border:             1px solid #000;
+}
+
